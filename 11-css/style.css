@@ -1,5 +1,5 @@
 /* * seleciona tudo do HTML */
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,17 +8,17 @@ p {
     color: rgb(3, 182, 113);
 }
 
- body section div p{
-     background-color: brown;
-     width: fit-content;
- }
+body section div p {
+    background-color: brown;
+    width: fit-content;
+}
 
- h1 {
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
- 
- .pai{
-     color: blueviolet;
- }
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pai {
+    color: blueviolet;
+}
