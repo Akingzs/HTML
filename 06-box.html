@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border box</title>
+    <style>
+        .section-two{
+            box-sizing: border-box; <-- Faz com que todos os elementos(border, padding) façam parte do tamanho total do box, não acrescentando a mais !-->
+        }
+
+        .section-one{
+            width: 200px;
+            padding: 15px;
+            background-color: deeppink;
+            background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/imagem-em-lente-convexa.jpg);
+            background-position: center;
+            background-size: cover;
+            border: 3px solid black;
+            
+        }
+        .section-two{
+            background: rgb(112, 171, 199);
+            width: 200px;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 10px;
+            border-top-color: red;
+            border-top-style: solid;
+            border-right: 5px;
+            border-right-color: rgb(0, 255, 128);
+            border-right-style: solid;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <section class="section-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat excepturi minima earum reiciendis recusandae voluptatum illo quas, porro nobis atque expedita aliquid qui optio. Perferendis nihil dicta voluptate aspernatur beatae.</section>
+    <section class="section-two"> Border box Faz com que todos os elementos(border, padding) façam parte do tamanho total do box, não acrescentando a mais</section>
+    
+</body>
+</html>
