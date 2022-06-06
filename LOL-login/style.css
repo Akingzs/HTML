@@ -71,9 +71,119 @@
     margin: 20px;
     cursor: text;
     text-transform: uppercase;
+    transition: all 200ms ease;
+
 }
 
 input:focus{
     background-color: var(--whitesmoke);
     border: 2px solid var(--deep-grey);
+}
+
+.login_label .span_active{
+    font-size: 0.7em;
+    margin: 8px 10px;           
+}
+
+.login_icons{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.login_icons img {
+    width: 30px;
+}
+
+.icons_button{
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+}
+.login_icons .icons_button:nth-child(1){
+    background-color: var(--blue);
+}
+.login_icons .icons_button:nth-child(2){
+    background-color: var(--black);
+}
+
+.login_label-checkbox{ 
+    width: 100%;
+    margin: 15px 0 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.input_checkbox{
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    background-color: var(--light-grey);
+    margin-right: 5px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.input_checkbox:checked:after{
+    content: "✓";
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+  
+    
+}
+
+.login_button{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background-color: var(--red);
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.login_button svg {
+    fill: white;
+}
+
+.login_button:disabled{
+    cursor: auto;
+    background-color: white;
+    border: 1px solid var(--light-grey);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.login_button:disabled svg {
+    fill: black;
+    padding: 0px;
+
+
+}
+
+.login_button:disabled svg {
+    fill: black;
+
+}
+.login_link{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--deep-grey);
+    margin-bottom: 5px;
+    font-weight: 700;
 }
