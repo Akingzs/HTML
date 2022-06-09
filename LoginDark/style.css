@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+}
+
+.login-logo{
+    width: 50%;
+    height: 931px;
+    justify-content: center;
+}
+
+
+.login-logo h1{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+
+}
+
+.login-logo h1:nth-child(1){
+    margin-top: 75px;
+
+
+}
+
+/* .login-logo h1:nth-child(2){
+    #;
+
+} */
+.img{
+    display: flex;
+    background-image: url(../LoginDark/img/Captura\ de\ tela\ 2022-06-09\ 140554.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(19, 10, 28);
+    height: 500px;
+    width: 100%;
+}
+
+.login-info{
+    height: 931px;
+    width: 50%;
+    background-color: rgb(112, 112, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box h2{
+    margin-bottom: 20px;
+}
+
+
+.login-info input{
+    display: block;
+}
+
+.save-login{
+    display: flex;
+}
+
+#login-salve{
+    display: flex;
+}
+
+
