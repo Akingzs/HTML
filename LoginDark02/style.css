@@ -83,7 +83,7 @@
 
 .textfield label{
     color: #f0ffffde;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .textfield input::placeholder{
@@ -103,6 +103,7 @@
     background-color: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px  #00ff8052;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width:600px) {
