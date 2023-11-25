@@ -11,6 +11,7 @@ p {
 body section div p {
     background-color: brown;
     width: fit-content;
+    color: antiquewhite;
 }
 
 h1 {
@@ -22,3 +23,9 @@ h1 {
 .pai {
     color: blueviolet;
 }
+
+ 
+/* .lorem {
+    color: blueviolet;
+    background-color: black;
+} */
