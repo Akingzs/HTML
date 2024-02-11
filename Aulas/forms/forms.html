@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        /* input{
+            display: block;
+        }
+         */
+        label:hover {
+            cursor: pointer;
+        }
+
+        div label{
+            display: inline-block;
+            width: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <p></p>
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Surname">
+            <p></p>
+        </div>
+        <label for="box1">Checkbox</label>
+        <input type="checkbox" name="box" id="box1">
+        <p></p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <p></p>
+        <input type="date" value="2017-06-01" />
+        <p></p>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+        <p></p>
+    </form>
+
+
+</body>
+</html>
