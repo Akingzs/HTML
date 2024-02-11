@@ -1,0 +1,48 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model
+1. Content
+   - The content of the box, where text and images appear.
+   - It is bounded by the content edge.
+   - Its dimensions are the content width (or content-box width) and the content height (or content-box height).
+   - Example: width: 300px; height: 150px;
+
+2. Padding
+   - The padding clears an area around the content.
+   - The padding is transparent and is bounded by the padding edge.
+   - Its dimensions are the padding-box width and the padding-box height.
+   - The thickness of the padding is determined by the padding-top, padding-right, padding-bottom, padding-left, and shorthand padding properties.
+   - Example: padding: 10px;
+
+3. Border
+   - The border goes around the padding and content.
+   - It is bounded by the border edge.
+   - Its dimensions are the border-box width and the border-box height.
+   - The thickness of the borders are determined by the border-width and shorthand border properties.
+   - Example: border: 2px solid black;
+
+4. Margin
+   - The margin clears an area outside the border.
+   - The margin is transparent and is bounded by the margin edge.
+   - Its dimensions are the margin box width and the margin box height.
+   - The size of the margin area is determined by the margin-top, margin-right, margin-bottom, margin-left, and shorthand margin properties.
+   - Example: margin: 5px;
+    * Margin do not sum in case of the element is an edge of other
+
+
+
+box sizing 
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+    - content-box:
+        gives you the default CSS box-sizing behavior. 
+        If you set an element's width to 100 pixels, then the element's 
+        content box will be 100 pixels wide, and the width of any border 
+        or padding will be added to the final rendered width, making the 
+        element wider than 100px.
+    - border-box:
+        tells the browser to account for any border and padding
+        in the values you specify for an element's width and height.
+        If you set an element's width to 100 pixels, that 100 pixels
+        will include any border or padding you added, and the content
+        box will shrink to absorb that extra width. This typically makes
+        it much easier to size elements.

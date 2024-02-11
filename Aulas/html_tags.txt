@@ -1,0 +1,43 @@
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+
+
+1. Document Structure Tags
+   - <html>: Root of the HTML document. Example: <html> ... </html>
+   - <head>: Contains metadata about the HTML document. Example: <head> ... </head>
+   - <body>: Wraps the main content of the HTML document. Example: <body> ... </body>
+
+2. Content Tags
+   - <p>: Defines a paragraph. Example: <p>This is a paragraph.</p>
+   - <a>: Creates a hyperlink. Example: <a href="https://www.example.com">This is a link</a>
+   - <img>: Embeds an image. Example: <img src="image.jpg" alt="An image">
+   - <h1> to <h6>: Define headings, <h1> being the highest level. Example: <h1>This is a heading</h1>
+
+3. List Tags
+   - <ul>: Unordered list. Example: <ul><li>Item 1</li><li>Item 2</li></ul>
+   - <ol>: Ordered list. Example: <ol><li>Item 1</li><li>Item 2</li></ol>
+   - <li>: List item. Example: <ul><li>This is a list item</li></ul>
+
+4. Table Tags
+   - <table>: Creates a table. Example: <table><tr><td>Data</td></tr></table>
+   - <tr>: Table row. Example: <table><tr><td>Data</td></tr></table>
+   - <td>: Table data. Example: <table><tr><td>This is a table data</td></tr></table>
+   - <th>: Table header. Example: <table><tr><th>This is a table header</th></tr></table>
+
+5. Form Tags
+   - <form>: Creates an HTML form. Example: <form action="/submit_form"><input type="text" name="name"></form>
+   - <input>: Used to create input controls. Example: <input type="text" name="name">
+   - <button>: Defines a clickable button. Example: <button type="submit">Submit</button>
+
+6. Semantic Tags
+   - <header>, <footer>, <article>, <section>, <nav>: Provide information about the type of content they contain. Example: 
+     <header><h1>This is a header</h1></header>
+     <footer><p>This is a footer</p></footer>
+     <article><p>This is an article</p></article>
+     <section><p>This is a section</p></section>
+     <nav><a href="#home">Home</a></nav>
+
+Note: HTML tags are usually paired with an opening <tag> and a closing </tag>. Some tags, like <img>, <br>, and <input>, are self-closing.
+
+Each HTML tag can have attributes, which provide additional information about the element. Some common attributes include class, id, style, src (for images), href (for links), and many others.
+
+This is a basic summary. There are many more HTML tags and attributes that you can use to create complex and interactive web pages.
