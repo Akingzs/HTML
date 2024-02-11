@@ -1,0 +1,38 @@
+Summary of HTML tables in a text format:
+
+
+1. <table>: The <table> tag is used to create a table. It contains rows and columns.
+
+2. <tr>: The <tr> tag stands for 'table row'. It is used to define a row in the table.
+
+3. <td>: The <td> tag stands for 'table data'. It is used to define a cell in the table. Data within <td> tags are the actual table data.
+
+4. <th>: The <th> tag stands for 'table header'. It is used to define a header cell in the table. Text within <th> tags are bold and centered by default.
+
+5. <caption>: The <caption> tag is used to provide a caption for the table. It should be inserted immediately after the <table> tag.
+
+6. <thead>, <tbody>, and <tfoot>: These tags are used to group the header content, the body content, and the footer content of the table, respectively.
+
+Here's an example of an HTML table:
+
+<table>
+  <caption>Example Table</caption>
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Footer Information</td>
+    </tr>
+  </tfoot>
+</table>
+
