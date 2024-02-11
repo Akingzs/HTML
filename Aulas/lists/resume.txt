@@ -1,0 +1,16 @@
+1. HTML Lists
+   - HTML lists are used to group similar data together.
+   - There are three types of HTML lists: unordered (<ul>), ordered (<ol>), and description lists (<dl>).
+   - Unordered lists use <ul> tags and list items are marked with bullets.
+   - Ordered lists use <ol> tags and list items are marked with numbers.
+   - Description lists use <dl> tags with <dt> for the term and <dd> for the description.
+
+2. CSS Styling Lists
+   - CSS provides several properties to style lists.
+   - list-style-type can be used to change the bullet style.
+   - list-style-position can be used to specify if the list-item markers should appear inside or outside the content flow.
+   - list-style-image can be used to replace the list-item marker with an image.
+   - Example: 
+     ul {
+       list-style-type: square;
+     }
