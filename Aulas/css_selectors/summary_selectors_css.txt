@@ -1,0 +1,32 @@
+https://www.w3schools.com/cssref/css_selectors.php
+
+Here's a summary of the principal CSS selectors:
+
+1. Simple Selectors:
+These select elements based on their name, id, or class.
+For example, 'p' selects all paragraph elements, '.myClass' 
+selects all elements with the class 'myClass', and '#myID' selects the element with the id 'myID'.
+
+2. Combinator Selectors:
+These select elements based on a specific relationship between them.
+For example, 'div p' selects all paragraph elements 
+inside a 'div' element, and 'div > p' selects all paragraph elements that 
+are direct children of a 'div' element.
+
+3. Pseudo-class Selectors:
+These select elements based on a certain state.
+For example, 'a:hover' selects links when they are being hovered over, 
+and 'p:first-child' selects every 'p' element that is the first child of its parent.
+
+4. Attribute Selectors:
+These select elements based on their attributes.
+For example, 'input[type="text"]' selects all 'input' elements with 
+a 'type' attribute of 'text'.
+
+5. Pseudo-elements Selectors:
+These select a specific part of an element.
+For example, 'p::first-line' selects the first line of every 'p' element.
+
+Remember, selectors can be combined to target specific elements more precisely. 
+For more detailed information, you can refer to the MDN Web Docs 
+or other CSS documentation.
