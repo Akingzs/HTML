@@ -1,0 +1,23 @@
+CSS display properties:
+
+1. None: The element is completely removed.
+
+2. Inline: Displays an element as an inline element (like <span>). Any height and width properties will have no effect.
+
+3. Block: Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+
+4. Inline-block: Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values.
+
+5. Flex: Displays an element as a block-level flex container.
+
+6. Inline-flex: Displays an element as an inline-level flex container.
+
+7. Grid: Displays an element as a block-level grid container.
+
+8. Inline-grid: Displays an element as an inline-level grid container.
+
+9. Table, table-caption, table-column-group, table-header-group, table-footer-group, table-row-group, table-cell, table-column, table-row: Let the element behave like a <table>, <caption>, <colgroup>, <thead>, <tfoot>, <tbody>, <td>, <col>, <tr> element respectively.
+
+10. List-item: Let the element behave like a <li> element.
+
+11. Contents: Makes the container disappear, making the child elements children of the element the next level up in the DOM.

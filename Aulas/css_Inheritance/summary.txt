@@ -1,0 +1,2 @@
+https://www.sitepoint.com/css-inheritance-introduction/
+https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
