@@ -1,0 +1,41 @@
+https://www.w3schools.com/colors/colors_picker.asp
+
+1. Predefined Color Names:
+h1 {
+    color: Tomato;
+}
+p {
+    color: DodgerBlue;
+}
+
+2. RGB Values:
+h1 {
+    color: rgb(255, 0, 0); /* Red */
+}
+p {
+    color: rgb(0, 255, 0); /* Green */
+}
+
+3. HEX Values:
+h1 {
+    color: #ff0000; /* Red */
+}
+p {
+    color: #00ff00; /* Green */
+}
+
+4. HSL Values:
+h1 {
+    color: hsl(0, 100%, 50%); /* Red */
+}
+p {
+    color: hsl(120, 100%, 50%); /* Green */
+}
+
+5. RGBA and HSLA Values:
+h1 {
+    color: rgba(255, 0, 0, 0.3); /* Red with 30% opacity */
+}
+p {
+    color: hsla(120, 100%, 50%, 0.3); /* Green with 30% opacity */
+}
