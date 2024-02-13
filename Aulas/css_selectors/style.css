@@ -18,3 +18,14 @@ a:visited{
 }
 
 
+.class1, .class2{
+    height: 20px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.class2 .class3{
+    height: 20px;
+    width: 100px;
+    background-color: rgba(241, 18, 18, 0.3)
+}
