@@ -1,0 +1,6 @@
+https://devfacts.com/?s=media+queries
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries
+https://www.w3schools.com/cssref/css3_pr_mediaquery.php
+
+
+Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si.
