@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .pai{
+            /* width: 100vw; */
+            height: 100vh;
+            background-color: aquamarine;
+            background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg');
+            background-size: cover;
+        }
+        ul{
+            display: flex;
+            text-decoration: none;
+            list-style-type: none;            
+        }
+        li{
+            margin-left: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#um">Um</a></li>
+            <li><a href="#dois">Dois</a></li>
+            <li><a href="#tres">Tres</a></li>
+        </ul>
+    </nav>
+    <div class="pai" id="um"></div>
+    <div class="pai" id="dois"></div>
+    <div class="pai" id="tres"></div>
+</body>
+</html>

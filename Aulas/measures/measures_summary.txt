@@ -1,0 +1,65 @@
+https://www.w3schools.com/cssref/css_units.php
+
+
+Unit	Description	
+em - Relative to the font-size of the element (2em means 2 times the size of the current font)
+ex - Relative to the x-height of the current font (rarely used)
+ch - Relative to the width of the "0" (zero)
+rem - Relative to font-size of the root element
+vw - Relative to 1% of the width of the viewport*
+vh - Relative to 1% of the height of the viewport* 
+vmin - Relative to 1% of viewport's* smaller dimension
+vmax - Relative to 1% of viewport's* larger dimension
+% - Relative to the parent element
+
+
+1. Pixels (px): Pixels are the most commonly used unit in web design. They are relative to the viewing device.
+Example:
+div {
+    width: 300px;
+    height: 200px;
+}
+
+2. Percent (%): The percent unit is much like the "em" unit, save for a few fundamental differences. It's relative to the parent element.
+Example:
+div {
+    width: 50%;
+    height: 50%;
+}
+
+3. Em: The 'em' is a very useful unit in CSS, since it can adapt automatically to the font that the reader uses.
+Example:
+div {
+    width: 10em;
+    height: 10em;
+}
+
+4. Rem: The 'rem' unit is relative to the root—or the html—element. That means that we can define a single font size on the html element and define all rem units to be a percentage of that.
+Example:
+html { font-size: 16px; }
+div {
+    width: 10rem;
+    height: 10rem;
+}
+
+5. Viewport Width (vw): This unit is based on the width of the viewport. A value of 1vw is equal to 1% of the viewport width.
+Example:
+div {
+    width: 50vw;
+    height: 50vh;
+}
+
+6. Points (pt): Points are traditionally used in print media (anything that is to be printed on paper, etc.). 1pt is equal to 1/72th of an inch.
+Example:
+div {
+    width: 100pt;
+    height: 200pt;
+}
+
+7. Centimeters (cm), Millimeters (mm), Inches (in): These units are only useful when printing the document. On a screen display, these units are a fixed size and do not change based on screen resolution or page zoom.
+Example:
+div {
+    width: 10cm;
+    height: 200mm;
+}
+
