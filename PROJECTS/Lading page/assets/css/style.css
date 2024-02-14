@@ -41,6 +41,11 @@ nav{
     height: 100vh;
     background-size: cover;
 }
+.info-form-cover{
+    background-image: url(../img/endless-constellation.svg);
+    height: 100vh;
+    background-size: cover;
+}
 .no-img-cover{
     background-color: aliceblue;
     height: 100vh;
@@ -48,42 +53,85 @@ nav{
 
 .home-content{
     padding-top: 70px;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 .home-content-text{
-    /* margin-top: 1%; */
-    margin:auto;
+    font-size: 2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-content-img{
     font-size: 2rem;
     width: fit-content;
-    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.innovation-img{
+    height: 400px;
+    width: 400px;
+    
 }
 .home-title{
-    margin-top: 50%; 
-    color: rgb(0, 87, 89);
-    text-align: center;
+    color: rgb(252, 252, 252);
     font-size: 2rem;
+    
 }
 .home-subtitle{
-    text-align: center;
     font-size: 1.2rem;
     width: 400px;
-    margin: auto;
     font-weight: 400;
-    text-justify:auto;
-    color: rgb(0, 87, 89);
-    
+    color: rgb(250, 250, 250);
+    text-align: justify;
+    margin-top: 10px;
 
+}
+
+h3{
+    margin-left: 8vw;
+    padding-top: 10px;
 }
 
 .gallery-title{
     padding-top: 1%;
-    color: rgb(0, 87, 89);
+    color: rgb(0, 0, 0);
     margin-left: 8vw;
+    font-size: 2rem;
+
+}
+.gallery-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: normal;
 }
 .content-gallery{
-    height: 100px;
-    width: 100px;
-    background-color: aquamarine;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(101, 33, 146);
+    margin-top: 100px;
+    /* display: grid; */
+}
+
+.forms{
+    padding-top: 10%;
+    font-size: 2rem;
+    color:aliceblue;
+    margin-left: 8vw;
+}
+
+label{
+    font-size: 1.5rem;
 }
