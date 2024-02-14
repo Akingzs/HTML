@@ -18,7 +18,7 @@ nav{
 
 }
 #logo{
-    margin-left: 100px;
+    margin-left: 8vw;
     height: 70px;
     width: 70px;
 }
@@ -26,7 +26,7 @@ nav{
 #menu-ul{
     list-style-type: none;
     display: flex;
-    margin-right: 100px;
+    margin-right: 8vw;
     align-items: center;
 }
 
@@ -37,7 +37,12 @@ nav{
 }
 
 .img-cover{
-    background-image: url(../img/wedding_landscape.jpg);
+    background-image: url(../img/endless-constellation.svg);
+    height: 100vh;
+    background-size: cover;
+}
+.no-img-cover{
+    background-color: aliceblue;
     height: 100vh;
 }
 
@@ -46,22 +51,21 @@ nav{
 }
 
 .home-content-text{
-    margin-top: 100px;
+    /* margin-top: 1%; */
     margin:auto;
     font-size: 2rem;
     width: fit-content;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
 
 
 }
-h1{
+.home-title{
     margin-top: 50%; 
     color: rgb(0, 87, 89);
     text-align: center;
     font-size: 2rem;
 }
-h2{
-    color: aliceblue;
+.home-subtitle{
     text-align: center;
     font-size: 1.2rem;
     width: 400px;
@@ -71,4 +75,15 @@ h2{
     color: rgb(0, 87, 89);
     
 
+}
+
+.gallery-title{
+    padding-top: 1%;
+    color: rgb(0, 87, 89);
+    margin-left: 8vw;
+}
+.content-gallery{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
 }
