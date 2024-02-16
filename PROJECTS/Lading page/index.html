@@ -61,14 +61,19 @@
     <section class="info-form-cover">
         <form action="#" class="forms">
             <legend>CONTACT ME</legend>
+            <div id="forms-inputs">
             <label for="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="Yourname">
+            <input type="text" id="first-name" class="center-height" placeholder="Yourname">
             <label for="surname">Surname</label>
-            <input type="text" id="surname" placeholder="Surname">
+            <input type="text" id="surname" class="center-height" placeholder="Surname">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Email">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="email" id="email" class="center-height" placeholder="Email">
+            </div>
+            <div>
+                <label for="message" id="message-label">Message</label>
+                <textarea name="message" id="message" cols="40" rows="10" placeholder="Your message"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit-button">
         </form>
     </section>
 
