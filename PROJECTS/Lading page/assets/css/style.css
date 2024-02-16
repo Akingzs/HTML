@@ -43,7 +43,7 @@ nav{
 }
 .info-form-cover{
     background-image: url(../img/endless-constellation.svg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
 }
 .no-img-cover{
@@ -126,11 +126,12 @@ h3{
 }
 
 .forms{
-    padding-top: 10%;
+    padding-top: 1vh;
     font-size: 2rem;
     color:aliceblue;
     width: 70%;
     margin: auto;
+    padding-top: 10vh;
 }
 
 label{
@@ -164,4 +165,17 @@ input{
 .center-height{
     /* margin: 5px 0 5px 0; */
     margin-left: 5px;
+}
+
+#submit-button{
+    margin-bottom: 1vh;
+    background-color: rgba(255, 255, 255, 0.115);
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#submit-button:hover{
+    background-color: rgb(101, 33, 146);
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.35)
 }
