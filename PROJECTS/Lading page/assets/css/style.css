@@ -43,12 +43,13 @@ nav{
 }
 .info-form-cover{
     background-image: url(../img/endless-constellation.svg);
-    height: 50vh;
     background-size: cover;
 }
 .no-img-cover{
     background-color: aliceblue;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .home-content{
@@ -115,13 +116,16 @@ h3{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
-    align-items: normal;
+    align-items: center;
+    height: 100%;
 }
+
 .content-gallery{
     height: 250px;
     width: 250px;
     background-color: rgb(101, 33, 146);
-    margin-top: 100px;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
     /* display: grid; */
 }
 
